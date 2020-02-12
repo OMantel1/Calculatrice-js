@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>calculatrice js</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, viewport-fit=cover">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container">
+        <h1 id="title">Calculatrice</h1>
+
+        <section class="calculatrice">
+            <div id="display"></div>
+            <div class="calculatrice__body">
+                <div><input type="button" value="AC" onclick='reset(this)' /></div>
+                <div><input type="button" value="+/-" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="%" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="/" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="7" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="8" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="9" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="*" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="4" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="5" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="6" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="-" onclick=' displayValue(this)' /></div>
+                <div><input type="button" value="1" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="2" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="3" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="+" onclick='displayValue(this)' /></div>
+                <div><input type="button" value="0" onclick=displayValue(this) /></div>
+                <div></div>
+                <div><input type="button" value="," onclick='displayValue(this)' /></div>
+                <div><input type="button" value="=" onclick='result(this)' /></div>
+            </div>
+
+        </section>
+    </section>
+
+    <script src="js/function.js" type="text/javascript">
+    </script>
+</body></html>
